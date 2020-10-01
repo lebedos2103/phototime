@@ -1,0 +1,28 @@
+.download {
+  background: $color-background;
+}
+
+.download__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 89px 0 117px;
+}
+
+.download__text {
+  width: 84%;
+  padding: 8px 0 42px;
+
+  @include font($size: 1.2rem, $height: 2.2rem, $weight: 600);
+  color: $color-text;
+  text-align: center;
+
+  letter-spacing: 1.8px;
+  text-transform: uppercase;
+}
+
+.download__buttons {
+  display: flex;
+  column-gap: 25px;
+}

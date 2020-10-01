@@ -1,0 +1,16 @@
+.subscribe {
+  background: url("../img/background/subscribe.png");
+}
+
+.subscribe__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding: 349px 0 325px 0;
+}
+
+.subscribe__title {
+  color: $color-primary;
+  margin-bottom: 31px;
+}

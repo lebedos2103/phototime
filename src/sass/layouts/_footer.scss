@@ -1,0 +1,22 @@
+.footer__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 38px 0;
+}
+
+.footer__content {
+  padding-top: 2px;
+}
+
+.footer__nav {
+  width: 300px;
+  padding-bottom: 15px;
+}
+
+.footer__copyright {
+  @include font($size: 1.4rem, $weight: 600);
+  color: #373737;
+  letter-spacing: 2px;
+}

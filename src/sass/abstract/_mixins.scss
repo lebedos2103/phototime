@@ -1,0 +1,16 @@
+@mixin font ($size, $height: $size, $weight: bold, $style: normal) {
+  font-size: $size;
+  font-style: $style;
+  font-weight: $weight;
+  line-height: $height;
+}
+
+@mixin set-placeholder($opacity: 1) {
+  @include font($size: 1.6rem, $weight: 600);
+  text-transform: uppercase;
+  letter-spacing: 2.3px;
+  color: $color-text;
+
+  opacity: $opacity;
+  transition: opacity 0.3s ease;
+}

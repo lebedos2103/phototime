@@ -1,0 +1,12 @@
+.ico {
+  @extend %transition;
+  cursor: pointer;
+  fill: $color-primary;
+  
+  &:hover {
+    fill: $color-link;
+  }
+}
+.ico-arrow {
+  fill: $color-text;
+}

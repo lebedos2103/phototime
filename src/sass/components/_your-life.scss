@@ -1,0 +1,19 @@
+.your-life {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  padding-top: 217px;
+  padding-bottom: 220px;
+
+  color: $color-primary;
+}
+
+.your-life__title {
+  padding-bottom: 13px;
+}
+
+.your-life__text {
+  @include font($size: 1.6rem, $weight: 500);
+  padding-bottom: 28px;
+}
