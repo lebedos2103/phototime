@@ -1,0 +1,85 @@
+.button {
+  border-radius: 3px;
+  background-color: $color-secondary;
+  text-align: center;
+
+  @include font($size: 1.2rem, $weight: 600);
+  text-transform: uppercase;
+  letter-spacing: 1.8px;
+  color: $color-primary;
+
+  @extend %reset-button;
+  @extend %transition;
+
+  &:hover {
+    @extend %transition;
+    background: $color-hover;
+  }
+}
+
+.button-store {
+  display: flex;
+  text-align: center;
+  border-radius: 3px;
+  overflow: hidden;
+
+  @extend %reset-button;
+}
+
+.button-store_text {
+  display: flex;
+  align-items: center;
+
+  padding-left: 22px;
+
+  background-color: $color-hover;
+
+  &:hover {
+    background-color: $color-secondary;
+  }
+
+  & > * {
+    @include font($size: 1.6rem, $weight: 600);
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+    padding-top: 7px;
+
+    color: $color-primary;
+  }
+}
+
+.button-store_icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $color-secondary;
+}
+
+.button_size_xs {
+  width: 56px;
+  height: 56px;
+}
+
+.button_size_s {
+  width: 63px;
+  height: 60px;
+}
+
+.button_size_m {
+  width: 166px;
+  height: 49px;
+
+  padding: 19px 0;
+}
+
+.button_size_l {
+  width: 192px;
+  height: 51px;
+
+  padding: 22px 0;
+}
+
+.button_size_xl {
+  width: 240px;
+  height: 56px;
+}

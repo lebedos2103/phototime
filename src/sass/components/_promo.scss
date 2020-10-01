@@ -1,0 +1,17 @@
+.promo {
+  background: url("../img/background/promo.png") center/cover;
+}
+
+.promo__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.promo__header {
+  width: 760px;
+}
+
+.promo__socials {
+  width: 100px;
+}

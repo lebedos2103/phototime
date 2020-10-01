@@ -1,0 +1,38 @@
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav__link {
+  @extend %transition;
+
+  &:hover:not(.logo) {
+    color: $color-link;
+    padding-bottom: 4px;
+    border-bottom: 1px solid $color-link;
+  }
+}
+
+.nav__link_footer {
+  @include font($size: 1.4rem, $weight: 600);
+  color: #373737;
+}
+
+.nav_border_vertical {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  height: 1.6rem;
+  border-left: 2px solid $color-secondary;
+  margin-bottom: 2px;
+}
+
+.nav__link_light {
+  color: $color-primary;
+}
+
+.nav__link_dark {
+  color: $color-text;
+}

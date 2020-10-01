@@ -1,0 +1,20 @@
+.container {
+  overflow: visible;
+  width: 460px;
+}
+
+.container__title {
+  padding-bottom: 37px;
+  color: $color-secondary;
+}
+
+.container__text {
+  letter-spacing: 1.7px;
+  white-space: pre-line;
+  line-height: 2.4rem;
+  padding-bottom: 42px;
+}
+
+.container__slider-control {
+  padding-top: 45px;
+}

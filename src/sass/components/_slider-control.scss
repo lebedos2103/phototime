@@ -1,0 +1,21 @@
+.slider-control {
+  @include font($size: 1.2rem, $height: 2.2rem);
+  text-align: center;
+}
+
+.slider-control__nav {
+  padding-bottom: 1px;
+}
+
+.slider-control__arrows {
+  display: flex;
+  justify-content: space-between;
+}
+
+.slider-control_size_s {
+  width: 40px;
+}
+
+.slider-control_size_l {
+  width: 45px;
+}

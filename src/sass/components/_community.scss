@@ -1,0 +1,44 @@
+.community {
+  background: $color-background;
+}
+
+.community__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 120px 0;
+}
+
+.community__content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  flex-basis: 180px;
+  flex-shrink: 0;
+  flex-grow: 0;
+
+  color: $color-text;
+
+  padding-top: 4px;
+}
+
+.community__title {
+  padding: 28px 0 19px 0;
+}
+.community__text {
+  @include font($size: 1rem, $weight: 500, $height: 1.2rem);
+  text-align: center;
+  letter-spacing: 1.4px;
+}
+
+.community__slider {
+  position: relative;
+}
+
+.community__slider-control {
+  position: absolute;
+  right: 0;
+  bottom: calc(100% + 2px);
+}
